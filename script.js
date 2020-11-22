@@ -12,7 +12,7 @@ formulario.addEventListener('submit', function(e) {
   e.preventDefault(); // it is necessary to send the form
   
   if(campo.value.length > 0 && text.value.length > 0) {
-    result.innerHTML = `${linkApi}60${campo.value}&text=${text.value}`;
+    result.innerHTML = `${linkApi}6${campo.value}&text=${text.value}`;
     campo.style.display = 'none'; // disable campo
     text.style.display = 'none'; // disable text
     generate.style.display = 'none'; // disable generate
